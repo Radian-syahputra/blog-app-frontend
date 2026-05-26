@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'https://blog-app-backend-production-ed90.up.railway.app/api',
+    baseURL: 'https://blog-app-backend-i556.onrender.com/api',
     withCredentials: true
 })
 
