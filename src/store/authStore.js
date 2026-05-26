@@ -44,7 +44,8 @@ const useAuthStore = create((set) => ({
         } catch (error) {
             set({
                 user: null,
-                isAuthenticated : false
+                isAuthenticated : false,
+                isCheckingAuth : false
             })
         }
     }
